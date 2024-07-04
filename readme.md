@@ -57,10 +57,9 @@ Dans la console Dataform :
 4. Mettez `main` comme `Default branch`.
 5. Choisissez le secret créé dans l'étape précédente (`git_token`).
 
----
-
 Ces étapes vous permettront de connecter votre repository à Git de manière sécurisée en utilisant Dataform. Si vous avez des questions ou des problèmes, n'hésitez pas à consulter la documentation officielle ou à contacter le support technique.
 
 # Terminer le lab
 commiter et push les vers le répo git
 merger les branch lab1 dans la branch principale.
+---
