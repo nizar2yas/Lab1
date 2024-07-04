@@ -62,4 +62,3 @@ Ces étapes vous permettront de connecter votre repository à Git de manière s�
 # Terminer le lab
 commiter et push les vers le répo git
 merger les branch lab1 dans la branch principale.
----
