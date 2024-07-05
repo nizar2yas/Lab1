@@ -3,5 +3,5 @@
     "defaultSchema": "lab1",
     "assertionSchema": "lab1_assertions",
     "warehouse": "bigquery",
-    "defaultLocation": "europe-west1",
+    "defaultLocation": "europe-west1"
 }
