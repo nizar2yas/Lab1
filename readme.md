@@ -1,27 +1,26 @@
 # Introduction
-ce lab est le 1er dans notre formation, il a pour objectif:
-1. créer un repository dataform
-2. configurer le projet
-3. se familiariser avec l'interface graphique
-4. savoir lancer et visualiser des actions dataform
-5. créer un repo git
-6. connecter dataform a git
-7. pusher son code vers git
+Ce lab est le premier de notre formation et a pour objectifs :
+1. Créer un repository Dataform.
+2. Configurer le projet.
+3. Se familiariser avec l'interface graphique de Dataform.
+4. Savoir lancer et visualiser des actions Dataform.
+5. Créer un repository Git.
+6. Connecter Dataform à Git.
+7. Pousser le code vers Git.
 
 # Créer un repository dataform
-- Suivre les étapes présenter lors de la présentation pour
-- créer un répo dataform
-- Créer un workspace (lab1)
-- lancer les initier le workspace et installer les dépendances
-- modifier le fichier de conf
-- exécuter tout les actions
-- vérifier qu'ils sont bien créer dans bigquery
+Suivez les étapes présentées lors de la présentation pour :
+
+- Créer un repository Dataform.
+- Créer un workspace nommé lab1.
+- Initialiser le workspace et installer les dépendances.
+- Modifier le fichier de configuration.
+- Exécuter toutes les actions.
+- Vérifier que les actions ont bien été créées dans BigQuery.
 
 # Connexion au système de gestion des versions
 
-Suivez les étapes suivantes pour connecter votre repository à Git.
-
-#### Génération du token GIT
+#### Génération du Token Git
 
 Dans cette étape, nous allons générer un jeton que Dataform utilisera pour se connecter au repository Git. Pour ce faire :
 
@@ -35,21 +34,18 @@ Dans cette étape, nous allons générer un jeton que Dataform utilisera pour se
 Cette étape consiste à ajouter le token généré dans l'étape précédente dans Secret Manager pour qu'il soit accessible de manière sécurisée.
 
 Dans Secret Manager :
-1. activer l'api de secret manager
+1. Activez l'API de Secret Manager.
 2. Créez un nouveau secret (par exemple `git_token`).
-3. Copiez le token généré dans l'étape précédente dans `Secret value`.
+3. Copiez le token généré dans `Secret value`.
 4. Laissez les autres valeurs par défaut.
 
-#### Donner les droits nécessaires au SA dataform
-dans cette étapes il faut donner au service account dataform les droits nécessaire pour pouvoir lire le token créer dans le secret manager.
-1. récupérer le SA dataform
-2. allez dans IAM
-3. trouver et éditer le SA dataform
-4. lui accorde le droit : Secret manager Secret accessor
+#### Donner les Droits Nécessaires au Service Account Dataform
+1. Récupérez le Service Account Dataform.
+2. Allez dans IAM.
+3. Trouvez et éditez le Service Account Dataform.
+4. Accordez-lui le droit : `Secret Manager Secret Accessor`.
 
 #### Connecter Dataform à Git
-
-Dans la console Dataform :
 
 1. Dans votre repository, allez dans `Settings -> Connect with Git`.
 2. Choisissez `HTTPS`.
