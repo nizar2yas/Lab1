@@ -1,12 +1,19 @@
 # Introduction
-Ce lab est le premier de notre formation et a pour objectifs :
-1. Créer un repository Dataform.
-2. Configurer le projet.
-3. Se familiariser avec l'interface graphique de Dataform.
-4. Savoir lancer et visualiser des actions Dataform.
-5. Créer un repository Git.
-6. Connecter Dataform à Git.
-7. Pousser le code vers Git.
+Ce laboratoire représente la première étape essentielle de notre formation, visant à établir des bases solides dans l'utilisation de Dataform. Les objectifs principaux de ce lab sont multiples et couvrent plusieurs aspects clés :
+
+1. **Création d'un repository Dataform**: Nous commencerons par créer un repository dans Dataform, fournissant ainsi un espace centralisé pour gérer et développer nos projets de transformation de données. Ce repository servira de point d'ancrage pour tous nos artefacts de données et les processus associés.
+
+2. **Configuration du projet**: Nous configurerons le projet Dataform en définissant les paramètres globaux, les environnements de déploiement et d'autres configurations spécifiques nécessaires au bon fonctionnement de nos pipelines de données.
+
+3. **Familiarisation avec l'interface graphique de Dataform**: Nous explorerons l'interface utilisateur intuitive de Dataform, qui offre des outils visuels pour la gestion des transformations, la planification des tâches et la surveillance des opérations. Cela nous permettra de naviguer efficacement à travers les différentes étapes de développement et de déploiement de nos projets.
+
+4. **Lancement et visualisation des actions Dataform**: Nous apprendrons à lancer et à visualiser les actions dans Dataform, y compris l'exécution des transformations, la vérification des résultats et la gestion des erreurs potentielles. Cela garantit que nos processus de traitement des données sont efficaces et produisent des résultats attendus.
+
+5. **Création d'un repository Git**: En parallèle avec Dataform, nous créerons également un repository Git pour versionner notre code, faciliter la collaboration et assurer la traçabilité des modifications apportées à nos transformations de données.
+
+6. **Connexion de Dataform à Git**: Nous établirons une connexion entre Dataform et notre repository Git, permettant ainsi la synchronisation automatique du code développé dans Dataform avec notre système de contrôle de version. Cela assure une gestion cohérente et sécurisée du code à travers les différentes phases de développement.
+
+7. **Pousser le code vers Git**: Enfin, nous apprendrons à pousser notre code développé dans Dataform vers Git, assurant ainsi sa sauvegarde régulière, sa gestion des versions et sa disponibilité pour d'autres membres de l'équipe. Cette intégration entre Dataform et Git facilite également le déploiement continu et la gestion des changements dans nos projets de transformation de données.
 
 # Créer un repository dataform
 Suivez les étapes présentées lors de la présentation pour :
