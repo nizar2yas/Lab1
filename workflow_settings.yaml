@@ -1,5 +1,0 @@
-defaultProject: dataform-training-429018
-defaultLocation: europe-west1
-defaultDataset: labs
-defaultAssertionDataset: labs_assertions
-dataformCoreVersion: 3.0.0-beta.4
